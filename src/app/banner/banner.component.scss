@@ -8,7 +8,9 @@
     position: absolute;
     transform: translate(-50%,-50%);
     top: 20%;
-    left: 20%;
+    left: 50%;
+    max-width:100%;
+    width:100%;
     font-size: 32px;
     color: white;
     font-weight: 600;
@@ -25,6 +27,7 @@
     max-height: 400px;
     height: 100%;
     z-index: -1;
+    object-fit: cover;
 }
 
 .download{
