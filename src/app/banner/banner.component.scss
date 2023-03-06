@@ -1,0 +1,28 @@
+.body{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    // background: url();
+}
+.title{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 20%;
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+.logo{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    bottom: -50%;
+    right: 10%;
+}
+.background{
+    max-width: 500px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    z-index: -1;
+}
