@@ -10,6 +10,7 @@ export class BannerComponent implements OnInit {
 @Input() logo;
 @Input() title;
 banner:any;
+editMoreBtn: boolean = false;
 @ViewChild('elem') elem:ElementRef;
   constructor() {}
 
@@ -36,5 +37,7 @@ banner:any;
     });
 }
 
-
+editMore(){
+  window.location.reload();
+}
 }
