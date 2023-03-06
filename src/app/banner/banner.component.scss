@@ -16,7 +16,7 @@
 .logo{
     position: absolute;
     transform: translate(-50%,-50%);
-    bottom: -50%;
+    bottom: 10%;
     right: 10%;
 }
 .background{
@@ -25,4 +25,11 @@
     max-height: 400px;
     height: 100%;
     z-index: -1;
+}
+
+.download{
+    position: fixed;
+    transform: translate(-50%,-50%);
+    bottom: -50%;
+    left: 50%;
 }
