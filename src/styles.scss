@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+.submitbtn{
+    padding: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 19px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 280px;
+}
+.input{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 0%;
+    left: 0%;
+    visibility: hidden;
+}
