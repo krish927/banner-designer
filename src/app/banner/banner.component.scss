@@ -9,17 +9,19 @@
     transform: translate(-50%,-50%);
     top: 20%;
     left: 50%;
-    max-width:100%;
-    width:100%;
+    max-width: fit-content;
+    width: fit-content;
     font-size: 32px;
     color: white;
     font-weight: 600;
+    cursor: move;
 }
 .logo{
     position: absolute;
     transform: translate(-50%,-50%);
     bottom: 10%;
     right: 10%;
+    cursor: move;
 }
 .background{
     max-width: 500px;

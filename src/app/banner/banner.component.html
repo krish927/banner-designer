@@ -1,8 +1,10 @@
 <div class="body" id="capture">
     <img [src]="image" class="background" height="100%" width="100%" alt="Background image">
-    <div class="title">{{title}}</div>
-    <div class="logo" id="mydiv" >
-        <img [src]="logo" height="40" width="40" alt="logo" id="mydivheader" />
+    <!-- added cdkDrag directive -->
+    <!-- for this I have updated angular CLI to latest version 15 -->
+    <div class="title" cdkDragBoundary=".body" cdkDrag>{{title}}</div>
+    <div class="logo" cdkDragBoundary=".body" cdkDrag>
+        <img [src]="logo" height="40" width="40" alt="logo" />
     </div>
 </div>
 
