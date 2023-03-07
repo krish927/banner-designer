@@ -1,8 +1,8 @@
 <div class="body" id="capture">
     <img [src]="image" class="background" height="100%" width="100%" alt="Background image">
     <div class="title">{{title}}</div>
-    <div class="logo">
-        <img [src]="logo" height="40" width="40" alt="logo" />
+    <div class="logo" id="mydiv" >
+        <img [src]="logo" height="40" width="40" alt="logo" id="mydivheader" />
     </div>
 </div>
 
@@ -13,4 +13,4 @@
 </button>
 <button type="submit" class="submitbtn more" (click)="editMore()">
         Edit More
-    </button>
+</button>
