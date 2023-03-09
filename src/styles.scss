@@ -7,7 +7,12 @@
     -moz-box-sizing:border-box;
     box-sizing:border-box;
   }
-
+ 
+  body{
+    background: linear-gradient(to bottom, #141b29, #0c111b 300px);
+    height: auto;
+    min-height: 100vh;
+  }
 .submitbtn{
     padding: 15px;
     background-color: rebeccapurple;

@@ -34,15 +34,15 @@
     <div class="form" *ngIf="!submitted">
         <form [formGroup]="form">
             <div class="formGroup" *ngIf="imageUpload">
-                <input type="file" #handleInput (change)="handleChange($event)" class="input">
+                <input type="file" #handleInput (change)="handleChange($event)" class="input" accept="image/*">
                 <button (click)="handleInput.click()"class="submitbtn" type="button">Choose Background image</button>
             </div>
             <div class="formGroup" *ngIf="logoUpload">
-                <input type="file" #logo (change)="handleLogo($event)" class="input">
+                <input type="file" #logo (change)="handleLogo($event)" class="input" accept="image/*">
                 <button type="button" (click)="logo.click()" class="submitbtn">Choose Logo</button>
             </div>
             <div class="formGroup" *ngIf="!imageUpload && !logoUpload">
-                <input type="text" class="title" placeholder="Enter title of banner here" formControlName="title">
+                <textarea type="text" class="title" placeholder="Enter title of banner here" formControlName="title"></textarea>
             </div>
             <button type="button" (click)="submit()" [disabled]="form.invalid" class="submitbtn" *ngIf="!imageUpload && !logoUpload">Submit</button>
         </form>
